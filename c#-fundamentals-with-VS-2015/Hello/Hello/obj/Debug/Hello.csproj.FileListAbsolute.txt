@@ -1,0 +1,6 @@
+c:\users\bmcku\documents\visual studio 2015\Projects\Hello\Hello\bin\Debug\Hello.exe.config
+c:\users\bmcku\documents\visual studio 2015\Projects\Hello\Hello\bin\Debug\Hello.exe
+c:\users\bmcku\documents\visual studio 2015\Projects\Hello\Hello\bin\Debug\Hello.pdb
+c:\users\bmcku\documents\visual studio 2015\Projects\Hello\Hello\obj\Debug\Hello.csprojResolveAssemblyReference.cache
+c:\users\bmcku\documents\visual studio 2015\Projects\Hello\Hello\obj\Debug\Hello.exe
+c:\users\bmcku\documents\visual studio 2015\Projects\Hello\Hello\obj\Debug\Hello.pdb
