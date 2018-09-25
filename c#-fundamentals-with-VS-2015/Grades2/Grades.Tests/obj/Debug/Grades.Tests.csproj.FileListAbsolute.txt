@@ -6,3 +6,11 @@ C:\Users\bmcku\Documents\Visual Studio 2015\Projects\Grades2\Grades.Tests\obj\De
 C:\Users\bmcku\Documents\Visual Studio 2015\Projects\Grades2\Grades.Tests\obj\Debug\Grades.Tests.pdb
 C:\Users\bmcku\Documents\Visual Studio 2015\Projects\Grades2\Grades.Tests\bin\Debug\Grades2.exe
 C:\Users\bmcku\Documents\Visual Studio 2015\Projects\Grades2\Grades.Tests\bin\Debug\Grades2.pdb
+C:\Users\bmcku\Documents\GitHub\PluralSight\c#-fundamentals-with-VS-2015\Grades2\Grades.Tests\obj\Debug\Grades.Tests.csprojResolveAssemblyReference.cache
+C:\Users\bmcku\Documents\GitHub\PluralSight\c#-fundamentals-with-VS-2015\Grades2\Grades.Tests\obj\Debug\Grades.Tests.dll
+C:\Users\bmcku\Documents\GitHub\PluralSight\c#-fundamentals-with-VS-2015\Grades2\Grades.Tests\obj\Debug\Grades.Tests.pdb
+C:\Users\bmcku\Documents\GitHub\PluralSight\c#-fundamentals-with-VS-2015\Grades2\Grades.Tests\bin\Debug\Grades.Tests.dll
+C:\Users\bmcku\Documents\GitHub\PluralSight\c#-fundamentals-with-VS-2015\Grades2\Grades.Tests\bin\Debug\Grades.Tests.pdb
+C:\Users\bmcku\Documents\GitHub\PluralSight\c#-fundamentals-with-VS-2015\Grades2\Grades.Tests\bin\Debug\Grades2.exe
+C:\Users\bmcku\Documents\GitHub\PluralSight\c#-fundamentals-with-VS-2015\Grades2\Grades.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\bmcku\Documents\GitHub\PluralSight\c#-fundamentals-with-VS-2015\Grades2\Grades.Tests\bin\Debug\Grades2.pdb
