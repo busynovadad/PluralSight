@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,15 @@ namespace Grades2
             return stats;
         }
 
+        public void WriteGrades(TextWriter destination)
+        {
+            //throw new NotImplementedException();
+            for (int i = grades.Count; i > 0; i--)
+            {
+                destination.WriteLine(grades[i-1]);
+            }
+        }
+
         public void AddGrade(float grade)
         {
             grades.Add(grade);
@@ -52,7 +62,7 @@ namespace Grades2
                         args.ExistingName = _name;
                         args.NewName = value;
 
-                        NameChanged(this, args);
+                        //NameChanged(this, args);
                     }
                     _name = value;
                 }
