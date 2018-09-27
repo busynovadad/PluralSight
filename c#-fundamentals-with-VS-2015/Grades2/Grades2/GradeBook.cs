@@ -17,11 +17,11 @@ namespace Grades2
 
         public GradeStatistics ComputeStatistics()
         {
-//            return new GradeStatistics();
+            //            return new GradeStatistics();
             GradeStatistics stats = new GradeStatistics();
 
             float sum = 0;
-            foreach(float grade in grades)
+            foreach (float grade in grades)
             {
                 stats.LowestGrade = Math.Min(grade, stats.LowestGrade);
                 stats.HighestGrade = Math.Max(grade, stats.HighestGrade);
@@ -36,8 +36,9 @@ namespace Grades2
             //throw new NotImplementedException();
             for (int i = grades.Count; i > 0; i--)
             {
-                destination.WriteLine(grades[i-1]);
+                destination.WriteLine(grades[i - 1]);
             }
+            destination.WriteLine(_name);
         }
 
         public void AddGrade(float grade)
@@ -54,18 +55,20 @@ namespace Grades2
 
             set
             {
-                if (!String.IsNullOrEmpty(value))
+                if (String.IsNullOrEmpty(value))
                 {
-                    if (_name != value)
-                    {
-                        NameChangedEventArgs args = new NameChangedEventArgs();
-                        args.ExistingName = _name;
-                        args.NewName = value;
-
-                        //NameChanged(this, args);
-                    }
-                    _name = value;
+                    throw new ArgumentException("Name cannot be null or empty");
                 }
+                if (_name != value)
+                {
+                    NameChangedEventArgs args = new NameChangedEventArgs();
+                    args.ExistingName = _name;
+                    args.NewName = value;
+
+                    //NameChanged(this, args);
+                }
+                _name = value;
+
             }
         }
 
