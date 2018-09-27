@@ -15,8 +15,9 @@ namespace Grades2
             grades = new List<float>();
         }
 
-        public GradeStatistics ComputeStatistics()
+        public virtual GradeStatistics ComputeStatistics()
         {
+            Console.WriteLine("GradeBook::ComputeStatistics");
             //            return new GradeStatistics();
             GradeStatistics stats = new GradeStatistics();
 
@@ -75,6 +76,6 @@ namespace Grades2
         public event NameChangedDelegate NameChanged;
 
         private string _name;
-        private List<float> grades;
+        protected List<float> grades;
     }
 }

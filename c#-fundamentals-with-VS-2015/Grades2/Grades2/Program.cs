@@ -12,12 +12,17 @@ namespace Grades2
     {
         static void Main(string[] args)
         {
-            GradeBook book = new GradeBook();
+            GradeBook book = CreateGradeBook();
             GetBookName(book);
             AddGrades(book);
             SaveGrades(book);
             WriteResults(book);
             Console.ReadLine();
+        }
+
+        private static ThrowAwayGradebook CreateGradeBook()
+        {
+            return new ThrowAwayGradebook();
         }
 
         private static void WriteResults(GradeBook book)
