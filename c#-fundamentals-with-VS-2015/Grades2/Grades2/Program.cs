@@ -12,20 +12,20 @@ namespace Grades2
     {
         static void Main(string[] args)
         {
-            GradeBook book = CreateGradeBook();
-            GetBookName(book);
+            IGradeTracker book = CreateGradeBook();
+            //GetBookName(book);
             AddGrades(book);
             SaveGrades(book);
             WriteResults(book);
             Console.ReadLine();
         }
 
-        private static ThrowAwayGradebook CreateGradeBook()
+        private static IGradeTracker CreateGradeBook()
         {
             return new ThrowAwayGradebook();
         }
 
-        private static void WriteResults(GradeBook book)
+        private static void WriteResults(IGradeTracker book)
         {
             GradeStatistics stats = book.ComputeStatistics();
             Console.WriteLine(book.Name);
@@ -35,7 +35,7 @@ namespace Grades2
             WriteResult(stats.Description, stats.LetterGrade);
         }
 
-        private static void SaveGrades(GradeBook book)
+        private static void SaveGrades(IGradeTracker book)
         {
             using (StreamWriter outputfile = File.CreateText("grades.txt"))
             {
@@ -43,14 +43,14 @@ namespace Grades2
             }
         }
 
-        private static void AddGrades(GradeBook book)
+        private static void AddGrades(IGradeTracker book)
         {
             book.AddGrade(91);
             book.AddGrade(89.5f);
             book.AddGrade(75);
         }
 
-        private static void GetBookName(GradeBook book)
+        private static void GetBookName(IGradeTracker book)
         {
             try
             {
