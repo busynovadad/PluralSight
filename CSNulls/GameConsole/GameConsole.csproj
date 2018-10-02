@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiamondSkinDefence.cs" />
+    <Compile Include="IronBonesDefence.cs" />
+    <Compile Include="ISpecialDefence.cs" />
+    <Compile Include="NullDefence.cs" />
     <Compile Include="PlayerCharacter.cs" />
     <Compile Include="PlayerDisplayer.cs" />
     <Compile Include="Program.cs" />
